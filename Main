@@ -34,3 +34,17 @@ class Color{
         cout <<endl;
     }
 };
+
+int main(){
+  cout << fixed << setprecision(2);
+    // setting values and printing them for each color
+  Color Red;
+  Red.setRed(123);
+  Red.setBlue(0);
+  Red.setGreen(0);
+  Red.print();
+  Color Blue;
+  Blue.setRed(0);
+  Blue.setBlue(123);
+  Blue.setGreen(0);
+  Blue.print();
