@@ -48,3 +48,11 @@ int main(){
   Blue.setBlue(123);
   Blue.setGreen(0);
   Blue.print();
+  Color Green;
+  Green.setRed(0);
+  Green.setBlue(0);
+  Green.setGreen(123);
+  Green.print();
+
+  return 0;
+}
