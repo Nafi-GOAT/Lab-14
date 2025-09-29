@@ -6,3 +6,14 @@
 //
 // COMSC-210 | Lab 14 | Mehraj Hasan Nafi
 // IDE used: XCode
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+class Color{
+//private data members
+  private:
+    int red;
+    int green;
+    int blue;
+  public:
